@@ -1,0 +1,20 @@
+module CTR_13(
+  clock,
+  count
+);
+
+parameter BIT_SZ = 13;
+input  clock;
+output [BIT_SZ-1:0] count;
+
+reg [BIT_SZ-1:0] count;
+
+initial count = 0;
+
+always @ (negedge clock)
+       begin
+	    count <= count+1;
+		 end
+endmodule
+
+

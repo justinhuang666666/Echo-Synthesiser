@@ -1,0 +1,76 @@
+module G_VC (clk, t1, t2, t3, t4, GAIN, q_sig, x, G);
+input clk;
+input A;
+input AB;
+input B;
+input BA;
+input [7:0] GAIN;
+input [8:0] q_sig;
+input [9:0] x;
+output [9:0] G;
+reg    [9:0] G;
+
+always @ (posedge clk)
+begin
+  if(t1 == 1'b1) begin
+     if(GAIN >= 8'd115)begin
+	     G <= {q[8], q[8:0]};
+		  end
+	  else if(GAIN>=8'd99)begin
+	     G <= {q[8], q[8], q[8:1]};
+		  end
+	  else if(GAIN>=8'd83)begin
+	     G <= {q[8], q[8], q[8], q[8:2]};
+		  end
+	  else if(GAIN>=8'd67)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8:3]};
+		  end
+	  else if(GAIN>=8'd51)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8:4]};
+		  end
+	  else if(GAIN>=8'd35)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8:5]};
+		  end
+	  else if(GAIN>=8'd19)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8:6]};
+		  end
+	  else if(GAIN>=8'd3)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8:7]};
+		  end
+	  end
+  if(t2 == 1'b1) begin
+     G <= x;
+	  end
+  if(t3 == 1'b1) begin
+     if(GAIN >= 8'd115)begin
+	     G <= {q[8], q[8:0]};
+		  end
+	  else if(GAIN>=8'd99)begin
+	     G <= {q[8], q[8], q[8:1]};
+		  end
+	  else if(GAIN>=8'd83)begin
+	     G <= {q[8], q[8], q[8], q[8:2]};
+		  end
+	  else if(GAIN>=8'd67)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8:3]};
+		  end
+	  else if(GAIN>=8'd51)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8:4]};
+		  end
+	  else if(GAIN>=8'd35)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8:5]};
+		  end
+	  else if(GAIN>=8'd19)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8:6]};
+		  end
+	  else if(GAIN>=8'd3)begin
+	     G <= {q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8], q[8:7]};
+		  end
+	  end
+  if(t4 == 1'b1) begin
+     G <= 0;
+	  end
+end
+endmodule
+
+		  

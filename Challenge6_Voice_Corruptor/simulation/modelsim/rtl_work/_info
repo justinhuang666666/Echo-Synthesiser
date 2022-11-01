@@ -1,0 +1,302 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18_2/projects/challenge6/simulation/modelsim
+vchallenge6
+!s110 1639696522
+!i10b 1
+!s100 AR4CbzVjc4EbH@[1S<32K3
+IACoUSZc:nJ00zWk5[WE7C3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1639398857
+8C:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1639696522.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6
+Z5 tCvgOpt 0
+vclktick_16
+Z6 !s110 1639696520
+!i10b 1
+!s100 C??F^bY]NUTDG^9eH^J3L3
+InDAQ1Nh5;HnId]7CEW=Uc3
+R1
+R0
+w1638576158
+8C:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v
+FC:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z7 !s108 1639696520.000000
+!s107 C:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/mylib|C:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v|
+!i113 1
+R3
+Z8 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/mylib
+R5
+vcounter_VCFSM
+!s110 1639696514
+!i10b 1
+!s100 CZjZoe;Khe<3N1^0=RF:V1
+Igm<:mX>D:DLY=gYR5l?8@0
+R1
+R0
+w1639481808
+8C:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z9 !s108 1639696514.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v|
+!i113 1
+R3
+R4
+R5
+ncounter_@v@c@f@s@m
+vCTR_13
+R6
+!i10b 1
+!s100 N_SS^RCGe7Rdkn3B=hYXi1
+I2kVC:U9Wo5k9L;cN3b^f31
+R1
+R0
+w1639415327
+8C:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v
+FC:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v
+L0 2
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge5|C:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge5
+R5
+n@c@t@r_13
+vCTR_VC
+Z10 !s110 1639696515
+!i10b 1
+!s100 TZ]<U7oE1k2kOTiGDjZF72
+IBolgEGRZW65VYiGDoJLE53
+R1
+R0
+w1639484563
+8C:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v
+L0 1
+R2
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v|
+!i113 1
+R3
+R4
+R5
+n@c@t@r_@v@c
+vfsm_VC
+!s110 1639696513
+!i10b 1
+!s100 89ZPfZ@ZDSdO:UGaHjocE0
+I6UJ:=>SjGSV<Lmal>JOV63
+R1
+R0
+w1639481813
+8C:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1639696513.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v|
+!i113 1
+R3
+R4
+R5
+nfsm_@v@c
+vG_VC
+!s110 1639696521
+!i10b 1
+!s100 J<=4AD_FjF14STfJaQV5Y3
+I`Sn=n_<OhF>?lFGVl=CkG2
+R1
+R0
+w1639663012
+8C:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1639696521.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v|
+!i113 1
+R3
+R4
+R5
+n@g_@v@c
+vGAIN_VC
+R10
+!i10b 1
+!s100 W2NH@ZVnJmJUa9NISMPnC2
+I37f_hfgN<F;8dEC6nJ3=a2
+R1
+R0
+w1639662142
+8C:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1639696515.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v|
+!i113 1
+R3
+R4
+R5
+n@g@a@i@n_@v@c
+vprocessor_vc
+Z11 !s110 1639696518
+!i10b 1
+!s100 6eOe6OD9Oad7Y;9YCnFO:3
+IhCS=;GAA0I;fZcbLld2HQ1
+R1
+R0
+w1639695700
+8C:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1639696517.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v|
+!i113 1
+R3
+R4
+R5
+vpulse_gen
+Z12 !s110 1639696519
+!i10b 1
+!s100 1o72SAJHCS3dB>6cgD[>51
+If9Wi@4lzI:GXXKE]kjDEH0
+R1
+R0
+w1391979802
+8C:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v
+FC:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v
+L0 9
+R2
+r1
+!s85 0
+31
+Z13 !s108 1639696519.000000
+!s107 C:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/mylib|C:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v|
+!i113 1
+R3
+R8
+R5
+vram_vc
+!s110 1639696516
+!i10b 1
+!s100 >Dd2Mi_36<kcH=3@oYeIK1
+IQj5oN97J^ef;LdP>znXLf3
+R1
+R0
+w1639151320
+8C:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v
+FC:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1639696516.000000
+!s107 C:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/challenge6|C:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v|
+!i113 1
+R3
+R4
+R5
+vspi2adc
+R12
+!i10b 1
+!s100 2lzUOSZQ5OK^`>Vc3hA8V2
+IF=zJflo6TY0hERkdFKT8l0
+R1
+R0
+w1606407157
+8C:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v
+FC:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v
+L0 9
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/mylib|C:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v|
+!i113 1
+R3
+R8
+R5
+vspi2dac
+R11
+!i10b 1
+!s100 DCT8KK93lFzRJgM`@0mA01
+ID^B]iS5V4L`bzafc[1J=10
+R1
+R0
+w1605985763
+8C:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v
+FC:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1639696518.000000
+!s107 C:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18_2/projects/mylib|C:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v|
+!i113 1
+R3
+R8
+R5

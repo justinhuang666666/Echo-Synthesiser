@@ -1,0 +1,171 @@
+# Reading C:/intelFPGA_lite/18_2/modelsim_ase/tcl/vsim/pref.tcl
+# do challenge6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18_2/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:13 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/fsm_VC.v 
+# -- Compiling module fsm_VC
+# 
+# Top level modules:
+# 	fsm_VC
+# End time: 23:15:13 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:14 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/counter_VCFSM.v 
+# -- Compiling module counter_VCFSM
+# 
+# Top level modules:
+# 	counter_VCFSM
+# End time: 23:15:14 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:14 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/CTR_VC.v 
+# -- Compiling module CTR_VC
+# 
+# Top level modules:
+# 	CTR_VC
+# End time: 23:15:15 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:15 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/GAIN_VC.v 
+# -- Compiling module GAIN_VC
+# 
+# Top level modules:
+# 	GAIN_VC
+# End time: 23:15:15 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:16 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/ram_vc.v 
+# -- Compiling module ram_vc
+# 
+# Top level modules:
+# 	ram_vc
+# End time: 23:15:16 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:17 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/processor_vc.v 
+# -- Compiling module processor_vc
+# 
+# Top level modules:
+# 	processor_vc
+# End time: 23:15:18 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/mylib {C:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:18 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/mylib" C:/intelFPGA_lite/18_2/projects/mylib/spi2dac.v 
+# -- Compiling module spi2dac
+# 
+# Top level modules:
+# 	spi2dac
+# End time: 23:15:18 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/mylib {C:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:19 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/mylib" C:/intelFPGA_lite/18_2/projects/mylib/spi2adc.v 
+# -- Compiling module spi2adc
+# 
+# Top level modules:
+# 	spi2adc
+# End time: 23:15:19 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/mylib {C:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:19 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/mylib" C:/intelFPGA_lite/18_2/projects/mylib/pulse_gen.v 
+# -- Compiling module pulse_gen
+# 
+# Top level modules:
+# 	pulse_gen
+# End time: 23:15:19 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/mylib {C:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:20 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/mylib" C:/intelFPGA_lite/18_2/projects/mylib/clktick_16.v 
+# -- Compiling module clktick_16
+# 
+# Top level modules:
+# 	clktick_16
+# End time: 23:15:20 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge5 {C:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:20 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge5" C:/intelFPGA_lite/18_2/projects/challenge5/CTR_13.v 
+# -- Compiling module CTR_13
+# 
+# Top level modules:
+# 	CTR_13
+# End time: 23:15:20 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:21 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/G_VC.v 
+# -- Compiling module G_VC
+# 
+# Top level modules:
+# 	G_VC
+# End time: 23:15:21 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18_2/projects/challenge6 {C:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:15:22 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18_2/projects/challenge6" C:/intelFPGA_lite/18_2/projects/challenge6/challenge6.v 
+# -- Compiling module challenge6
+# 
+# Top level modules:
+# 	challenge6
+# End time: 23:15:22 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.fsm_VC
+# vsim work.fsm_VC 
+# Start time: 23:15:35 on Dec 16,2021
+# Loading work.fsm_VC
+add wave clk countA countAB countB countBA
+add wave A AB B BA
+add wave A_en AB_en B_en BA_en
+force clock 0 0, 1 10ns -repeat 20ns
+# ** Error (suppressible): (vsim-4008) Object 'clock' not found.
+# 
+force clk 0 0, 1 10ns -repeat 20ns
+force countA 0 0, 1 10ns -repeat 0.131ms
+run 10ms
+force countA 1 0, 1 10ns -repeat 20ns
+run 1ms
+force countA 0 1, 0 10ns -repeat 0.131ms
+run 1ms
+# WARNING: No extended dataflow license exists
+vsim work.counter_VCFSM
+# End time: 23:34:52 on Dec 16,2021, Elapsed time: 0:19:17
+# Errors: 1, Warnings: 1
+# vsim work.counter_VCFSM 
+# Start time: 23:34:52 on Dec 16,2021
+# Loading work.counter_VCFSM
+add wave clk en count
+force clk 0 0,1 10ns -repeat 20ns
+force en 1
+run 1ms

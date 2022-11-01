@@ -1,0 +1,26 @@
+module CTR_VCM (clk, t1, t2, t3, count);
+
+input clk;
+input t1;
+input t2;
+input t3;
+
+output [12:0] count;
+reg    [12:0] count;
+
+always @ (negedge clk)
+    begin
+	    if(t1==1'b1) begin
+		    count <= count-1'b1;
+			 end
+		 else if(t2 == 1'b1) begin
+		    count <= count-1'b1;
+			 end
+		 else if(t3 == 1'b1) begin
+		    count <= count-1'b1;
+			 end
+		 else begin
+		    count <= 13'd393;
+			 end
+	 end
+endmodule 

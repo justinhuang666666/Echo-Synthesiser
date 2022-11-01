@@ -1,0 +1,22 @@
+module GAIN_VC (clk, t1, t2, t3, t4, GAIN);
+
+input clk;
+input t1;
+input t2;
+input t3;
+input t4;
+output [7:0] GAIN;
+
+reg [7:0] GAIN;
+reg [7:0] MID;
+initial MID = 0;
+
+always @ (posedge clk)
+  begin
+     if(t1 == 1'b1) begin
+	     MID <= MID+1'b1;
+		  GAIN <= MID;
+		  end
+	  else if(t2 == 1'b1) begin
+	     MID <= 1'b1;
+		  

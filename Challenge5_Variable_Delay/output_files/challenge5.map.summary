@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Dec 13 17:10:30 2021
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : challenge5
+Top-level Entity Name : challenge5
+Family : MAX 10
+Total logic elements : 269
+    Total combinational functions : 246
+    Dedicated logic registers : 107
+Total registers : 107
+Total pins : 52
+Total virtual pins : 0
+Total memory bits : 73,728
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
